@@ -16,8 +16,9 @@ from pathlib import Path
 
 
 #usando potsgreesql com heroku
-db_from_env = dj_database_url.config(conn_max_age=500)
-DATABASES = ['default'].update(db_from_env)
+DATABASES = {
+    'default': dj_database_url.config()
+}
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
