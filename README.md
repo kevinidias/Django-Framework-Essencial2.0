@@ -2,8 +2,8 @@
 
 Projeto 2 do curso Programação Web com Python e Django Framework: Essencial.
 
-Nesse projeto eu pude aprender como enviar e-mails com forms, o e-mail não foi configurado,
-pois está na versão free do heroku.
+Nesse projeto eu pude aprender como enviar e-mails com forms, o e-mail foi configurado,
+mas na versão free do heroku não pode ser feito o envio.
 Aprendi usar o modelforms para enviar dados para o banco de dados.
 Tive diversas dificuldades/erros na hora de publicar no heroku, mas no fim consegui.
 E por final foi instalado o dj-static para abrir imagens no heroku.
